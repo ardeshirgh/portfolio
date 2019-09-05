@@ -1,0 +1,84 @@
+body {
+	background-image: url("../image/background.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+#overall{background-color: white;
+font-family: 'Crimson Text', serif;}
+#section{
+	height: 100vh;
+	background-image: url("../image/maxresdefault.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+}
+
+#button {
+	cursor: hand;
+	background-color: #ff8d35;
+	color: white;
+	font: weight: 900;
+	font-size: 1.2rem;
+	border:none;
+	padding: 1em 3em;
+	margin: 2em auto;
+	display: block;
+	position: absolute;
+	bottom: 0%;
+	right: 50%;
+	transition: background .5s ease-in, transform .25s ease-in-out;
+}
+#button:hover {
+	background: #c61140;
+	transform: scale(1.2);}
+.tir{
+	color: #992017;
+	position: relative;
+	right: 0%;
+}
+#pic1{
+	width: 100%;
+}
+ #click{
+ 	cursor: hand;
+ 	background-color: #03944b;
+ 	color: white;
+ 	font: weight:50;
+ 	font-size: 1.2em;
+ 	border:none;
+ 	padding: 1em 3em;
+ 	display: block;
+ 	transition: background .5s ease-in, transform.25s ease-in-out
+
+ }
+ #click:hover {
+ 	background: #02a6a8;
+ 	transform: scale(1.2);
+ }
+ a {
+ 	text-decoration: none;
+ }
+ #button1 {
+	cursor: hand;
+	background-color: #ff8d35;
+	color: white;
+	font: weight: 900;
+	font-size: 1.2rem;
+	border:none;
+	padding: 1em 3em;
+	margin: 2em auto;
+	display: block;
+	position: absolute;
+	bottom: 0%;
+	right: 50%;
+	transition: background .5s ease-in, transform .25s ease-in-out;
+}
+#button1:hover {
+	background: #c61140;
+	transform: scale(1.2);}
+ .size{
+ 	width: 40px;
+ 	height: 40px;
+ }
